@@ -1,22 +1,63 @@
 ﻿.container {
     display: grid;
     grid-gap: 10px 5px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(8, 3fr);
+    grid-template-rows: repeat(10, 250px);
     margin: 2rem auto;
     max-width: 1000px;
+    background-color: black;
 }
 
-.grid-item-1 {
+.grid-item-1 {/*//shop-name-header*/
     grid-row-start: 1;
-    grid-column: 1 / span 6;
-    background-color: cadetblue;
+    grid-column: 2 / span 6;
+    background-color: orange;
 }
 
-.grid-item-2 {
-    grid-row: 2 /span 5;
-    grid-column: 1;
+.grid-item-2 {/*//picture-of-outside*/
+    grid-row: 2 /span 3;
+    grid-column: 4 /span 2;
     background-color: blue;
 }
 
+.grid-item-3 {/*//list-of-items-and-prices*/
+    grid-row: 5 /span 3;
+    grid-column: 4 /span 2;
+    background-color: rebeccapurple;
+}
 
+.grid-item-4 {/*//hours*/
+    grid-row: 1 /span 3;
+    grid-column: 8;
+    background-color: yellow;
+}
+
+.grid-item-5 {/*//about-the-restaurant*/
+    grid-row: 3 /span 2;
+    grid-column: 1 /span 2;
+    background-color: indianred;
+}
+
+.grid-item-6 {/*//google-maps*/
+    grid-row: 4 /span 2;
+    grid-column: 8;
+    background-color: teal;
+}
+
+.grid-item-7 {/*//picture-of-owner*/
+    grid-row: 3 /span 2;
+    grid-column: 7;
+    background-color: darkred;
+}
+
+.grid-item-8 {/*//about-the-owner*/
+    grid-row: 6 /span 2;
+    grid-column: 7;
+    background-color: lightpink;
+}
+
+.grid-item-9 {/*//footer*/
+    grid-row: 8;
+    grid-column: 1/ span 7;
+    background-color: lightseagreen;
+}
